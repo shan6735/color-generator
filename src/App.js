@@ -8,6 +8,7 @@ function App() {
   const [error, setError] = useState(false);
   const [list, setList] = useState(new Values("#f15025").all(10));
   console.log("CI/CD testing");
+  console.log(process.env.REACT_APP_TEST);
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
