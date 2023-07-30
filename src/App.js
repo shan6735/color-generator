@@ -7,7 +7,7 @@ function App() {
   const [color, setColor] = useState("");
   const [error, setError] = useState(false);
   const [list, setList] = useState(new Values("#f15025").all(10));
-  console.log("CI/CD");
+  console.log("CI/CD testing");
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
